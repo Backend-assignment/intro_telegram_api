@@ -7,7 +7,13 @@ url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
 # Get telegram bot updates
 response = requests.get(url)
 # Print response
-pprint(response.json())
+result = response.json()['result']
+
+message = result[0]['message']
+username = message['from']['username']
+text = message['text']
+print(f"Username: {username}")
+print(f"Text: {text}")
 # Define a function to get text of messages 
 def get_messages(response):
     """
