@@ -24,6 +24,6 @@ def sendPhoto(chat_id:str,photo:str,caption:str):
 
 # Send photo to telegram bot
 chat_id = 5575549228
-photo ='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtET58uAxG_u8uZH2mm-IK0dFNtvhYIxt8HQ&usqp=CAU'
+photo ='AgACAgIAAxkBAANRZM3ml30iuntEkUC_AvC1orK_Ap8AAg_SMRvF42lKnGunPrz-3AoBAAMCAANzAAMvBA'
 caption = 'This is a cat'
 pprint(sendPhoto(chat_id,photo,caption))

@@ -19,8 +19,10 @@ def send_message(chat_id,text):
     }
     response = requests.get(url,params=params)
     return response.json()
-while True:
-    # Get last message text from updates
-    updates = get_updates()
-    last_message = updates['result'][-1]['message']['text']
-    send_message(5575549228,last_message)
+
+pprint(get_updates())
+# while True:
+#     # Get last message text from updates
+#     updates = get_updates()
+#     last_message = updates['result'][-1]['message']['text']
+#     send_message(5575549228,last_message)

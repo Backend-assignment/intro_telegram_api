@@ -23,6 +23,7 @@ def get_messages(response):
     msg = {
         "text":"",
         "username":"",
+        'chat_id':''
     }
     messages = []
     for result in results:

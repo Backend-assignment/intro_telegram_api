@@ -5,7 +5,7 @@ TOKEN ='5913199109:AAFUlVr6ZUsPu4nUXXaBSFp6gQSOaZF9mGY'
 # Get updates from telegram bot
 url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 params = {
-    'chat_id':5575549228,
+    'chat_id':1478627019,
     'text':'Salom'
 }
 # Get telegram bot updates

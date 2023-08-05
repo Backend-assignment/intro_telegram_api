@@ -17,6 +17,9 @@ This tutorial is for those who want to develop a Telegram bot for the first time
 3. Follow the instructions to create a new bot.
 4. Copy the token of the bot.
 
+## Authorize the bot using TOKEN
+
+
 ## Get telegram bot information using `getMe` method
 
 1. URL: `https://api.telegram.org/bot<token>/getMe`
