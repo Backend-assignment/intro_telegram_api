@@ -38,5 +38,4 @@ def get_file_id():
     return file_id
 chat_id = 5575549228
 file_id = get_file_id()
-
 sendPhoto(chat_id,file_id)
