@@ -10,3 +10,10 @@ class Bot:
         resp = requests.get(url)
         result_json = resp.json()['result']
         return result_json
+    
+    def get_me(self):
+        method = 'getMe'
+        url = f'{self.api_url}{method}'
+        resp = requests.get(url)
+        result_json = resp.json()['result']
+        return result_json
